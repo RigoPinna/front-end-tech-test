@@ -1,0 +1,27 @@
+.__btn_cart {
+    align-items: center;
+    background: #FFF;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    padding:10px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+.__btn_cart:active {
+    background:#1D1C1C;
+}
+.__btn_cart:active svg {
+    fill:#FFF;
+}
+.__btn_cart svg {
+    width: 24px;
+    height: 24px;
+    fill: #1D1C1C;
+}
+.__btn_cart .__badge {
+    position: absolute;
+    right: -5px;
+    top: -2px;
+
+}

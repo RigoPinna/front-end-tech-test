@@ -1,0 +1,36 @@
+.__wrapper_buttons_items_editable {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.__wrapper_buttons_items_editable p {
+    padding: 0 5px;
+}
+.__wrapper_buttons_items_editable button {
+    padding: 3px;
+    border-radius:100%;
+    border: 1px solid #1D1C1C;
+}
+.__wrapper_buttons_items_editable > button:active {
+    background: #48B09E;
+    border-color: #48B09E;
+    transform: scale(1);
+    
+}
+.__wrapper_buttons_items_editable > button:first-child {
+    background: transparent;
+}
+.__wrapper_buttons_items_editable > button:first-child:active {
+    background: #E1422D;
+    border-color: #E1422D;
+    transform: scale(1);
+    
+}
+.__wrapper_buttons_items_editable > button:first-child:active svg {
+    fill: #FFF
+    
+}
+.__wrapper_buttons_items_editable > button:first-child svg {
+    fill: #1D1C1C;
+}

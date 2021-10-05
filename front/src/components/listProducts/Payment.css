@@ -1,0 +1,24 @@
+.__wrapper_payment {
+    width: 100%;
+    min-height: 6.25em;
+    border-top: 0.0625em solid #282C34;
+    padding: 0.3125em 1.25em;
+    font-size: 1em;
+}
+.__wrapper_payment_price {
+    display: flex;
+    width: 100%;
+    height: 3.0625em;
+    justify-content: space-between;
+    font-size:1em
+}
+.__wrapper_payment_price span{
+    font-weight: normal;
+    font-size:0.75em
+}
+@media screen and (min-width: 750px) {
+    .__wrapper_payment {
+        font-size:20px;
+    }
+
+}
