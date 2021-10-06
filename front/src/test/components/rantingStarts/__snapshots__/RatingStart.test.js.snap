@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente <RatingStart /> Debe de mostrarse correctamente 1`] = `
+<div
+  className="__wrapper_reviews"
+>
+  <fieldset
+    className="rating rating--static"
+  >
+    <label>
+      <input
+        disabled={false}
+        name="star"
+        type="radio"
+        value={1}
+      />
+      <span />
+    </label>
+    <label>
+      <input
+        disabled={false}
+        name="star"
+        type="radio"
+        value={1.5}
+      />
+      <span />
+    </label>
+    <label>
+      <input
+        disabled={false}
+        name="star"
+        type="radio"
+        value={2}
+      />
+      <span />
+    </label>
+    <label>
+      <input
+        disabled={false}
+        name="star"
+        type="radio"
+        value={2.5}
+      />
+      <span />
+    </label>
+    <label>
+      <input
+        disabled={false}
+        name="star"
+        type="radio"
+        value={3}
+      />
+      <span />
+    </label>
+    <label>
+      <input
+        disabled={true}
+        name="star"
+        type="radio"
+        value={3.5}
+      />
+      <span />
+    </label>
+    <label>
+      <input
+        disabled={true}
+        name="star"
+        type="radio"
+        value={4}
+      />
+      <span />
+    </label>
+    <label>
+      <input
+        disabled={true}
+        name="star"
+        type="radio"
+        value={4.5}
+      />
+      <span />
+    </label>
+    <label>
+      <input
+        disabled={true}
+        name="star"
+        type="radio"
+        value={5}
+      />
+      <span />
+    </label>
+  </fieldset>
+  <p>
+    (
+    12
+     Reviwers)
+  </p>
+</div>
+`;

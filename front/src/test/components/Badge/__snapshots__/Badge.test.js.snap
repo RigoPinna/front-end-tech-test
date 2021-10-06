@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente <Badge /> Debe de mostrarse correctamente 1`] = `
+<span
+  className="__badge animate__animated animate__fadeIn"
+>
+  1
+</span>
+`;

@@ -1,16 +1,14 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect, useState } from 'react'
 
 export const Start = React.memo(({ value, rating }) => {
-    const start = useRef(null)
+    const [select, setSelect] = useState( false )
     useEffect(() => {
-        if( !!start.current ) {
-            (value > rating) 
-                && start.current.setAttribute('disabled', true);
-        }
+        (value > rating) 
+            && setSelect( true )
     }, [])
     return (
         <label>
-            <input ref={ start } name="star" value={ value } type="radio"/>
+            <input disabled={ select } name="star" value={ value } type="radio"/>
             <span></span>
         </label>
     )

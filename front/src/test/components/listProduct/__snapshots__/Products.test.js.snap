@@ -1,0 +1,323 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba en el componente <Products /> Debe de mostrar el letrero "No Productos Founts" si no hay productos 1`] = `
+<section
+  className="__wrapper_feed_products"
+>
+  <h2>
+    No Productos Founts
+  </h2>
+</section>
+`;
+
+exports[`Prueba en el componente <Products /> Debe de mostrar la lista de productos correctamente 1`] = `
+<section
+  className="__wrapper_feed_products"
+>
+  <h2>
+    Fount 
+    2
+     Resoults
+  </h2>
+  <div
+    className="__card animate__animated animate__fadeIn"
+    onClick={[Function]}
+  >
+    <span>
+      #
+      4.5
+    </span>
+    <img
+      alt="Airpods Wireless Bluetooth Headphones"
+      src="http://localhost:5000/images/airpods.jpg"
+    />
+    <div
+      className="__card_body"
+    >
+      <h4>
+        Airpods Wireless Bluetooth Headphones
+      </h4>
+      <p>
+        Apple - Electronics
+      </p>
+      <p
+        className="__card_body_description"
+      >
+        Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working
+      </p>
+      <div
+        className="__wrapper_reviews"
+      >
+        <fieldset
+          className="rating rating--static"
+        >
+          <label>
+            <input
+              disabled={false}
+              name="star"
+              type="radio"
+              value={1}
+            />
+            <span />
+          </label>
+          <label>
+            <input
+              disabled={false}
+              name="star"
+              type="radio"
+              value={1.5}
+            />
+            <span />
+          </label>
+          <label>
+            <input
+              disabled={false}
+              name="star"
+              type="radio"
+              value={2}
+            />
+            <span />
+          </label>
+          <label>
+            <input
+              disabled={false}
+              name="star"
+              type="radio"
+              value={2.5}
+            />
+            <span />
+          </label>
+          <label>
+            <input
+              disabled={false}
+              name="star"
+              type="radio"
+              value={3}
+            />
+            <span />
+          </label>
+          <label>
+            <input
+              disabled={false}
+              name="star"
+              type="radio"
+              value={3.5}
+            />
+            <span />
+          </label>
+          <label>
+            <input
+              disabled={false}
+              name="star"
+              type="radio"
+              value={4}
+            />
+            <span />
+          </label>
+          <label>
+            <input
+              disabled={false}
+              name="star"
+              type="radio"
+              value={4.5}
+            />
+            <span />
+          </label>
+          <label>
+            <input
+              disabled={true}
+              name="star"
+              type="radio"
+              value={5}
+            />
+            <span />
+          </label>
+        </fieldset>
+        <p>
+          (
+          12
+           Reviwers)
+        </p>
+      </div>
+    </div>
+    <div
+      className="__card_footer"
+    >
+      <strong>
+        $
+        89.99
+      </strong>
+      <button
+        disabled={false}
+        onClick={[Function]}
+      >
+        <svg
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M11 11V5h2v6h6v2h-6v6h-2v-6H5v-2z"
+          />
+        </svg>
+        Add to item cart
+      </button>
+    </div>
+  </div>
+  <div
+    className="__card animate__animated animate__fadeIn"
+    onClick={[Function]}
+  >
+    <span>
+      #
+      4
+    </span>
+    <img
+      alt="Amazon Echo Dot 3rd Generation"
+      src="http://localhost:5000/images/alexa.jpg"
+    />
+    <div
+      className="__card_body"
+    >
+      <h4>
+        Amazon Echo Dot 3rd Generation
+      </h4>
+      <p>
+        Amazon - Electronics
+      </p>
+      <p
+        className="__card_body_description"
+      >
+        Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space
+      </p>
+      <div
+        className="__wrapper_reviews"
+      >
+        <fieldset
+          className="rating rating--static"
+        >
+          <label>
+            <input
+              disabled={false}
+              name="star"
+              type="radio"
+              value={1}
+            />
+            <span />
+          </label>
+          <label>
+            <input
+              disabled={false}
+              name="star"
+              type="radio"
+              value={1.5}
+            />
+            <span />
+          </label>
+          <label>
+            <input
+              disabled={false}
+              name="star"
+              type="radio"
+              value={2}
+            />
+            <span />
+          </label>
+          <label>
+            <input
+              disabled={false}
+              name="star"
+              type="radio"
+              value={2.5}
+            />
+            <span />
+          </label>
+          <label>
+            <input
+              disabled={false}
+              name="star"
+              type="radio"
+              value={3}
+            />
+            <span />
+          </label>
+          <label>
+            <input
+              disabled={false}
+              name="star"
+              type="radio"
+              value={3.5}
+            />
+            <span />
+          </label>
+          <label>
+            <input
+              disabled={false}
+              name="star"
+              type="radio"
+              value={4}
+            />
+            <span />
+          </label>
+          <label>
+            <input
+              disabled={true}
+              name="star"
+              type="radio"
+              value={4.5}
+            />
+            <span />
+          </label>
+          <label>
+            <input
+              disabled={true}
+              name="star"
+              type="radio"
+              value={5}
+            />
+            <span />
+          </label>
+        </fieldset>
+        <p>
+          (
+          12
+           Reviwers)
+        </p>
+      </div>
+    </div>
+    <div
+      className="__card_footer"
+    >
+      <strong>
+        $
+        29.99
+      </strong>
+      <button
+        disabled={true}
+        onClick={[Function]}
+      >
+        <svg
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M12 2c5.523 0 10 4.477 10 10 0 .727-.077 1.435-.225 2.118l-1.782-1.783a8 8 0 10-4.375 6.801 3.997 3.997 0 001.555 1.423A9.956 9.956 0 0112 22C6.477 22 2 17.523 2 12S6.477 2 12 2zm7 12.172l1.414 1.414a2 2 0 11-2.93.11l.102-.11L19 14.172zM12 15c1.466 0 2.785.631 3.7 1.637l-.945.86C13.965 17.182 13.018 17 12 17c-1.018 0-1.965.183-2.755.496l-.945-.86A4.987 4.987 0 0112 15zm-3.5-5a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm7 0a1.5 1.5 0 110 3 1.5 1.5 0 010-3z"
+          />
+        </svg>
+        Out of stock
+      </button>
+    </div>
+  </div>
+</section>
+`;

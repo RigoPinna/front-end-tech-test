@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente <Start /> Debe de mostrarse correctamente 1`] = `
+<label>
+  <input
+    disabled={false}
+    name="star"
+    type="radio"
+    value={3}
+  />
+  <span />
+</label>
+`;
+
+exports[`Pruebas en el componente <Start /> Debe de seleccionar el rating de la estrella 4.5 1`] = `
+<label>
+  <input
+    disabled={true}
+    name="star"
+    type="radio"
+    value={5}
+  />
+  <span />
+</label>
+`;
