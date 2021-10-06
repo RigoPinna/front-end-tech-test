@@ -8,7 +8,9 @@ Instalar API (backend) y la aplicacion React (front):
    `npm install`
 2. Navega al directorio `front` y vuelve a correr el comando:
    `npm install`
-3. [Adicional] Para ejecutar los testings navegar a la carpeta `front` y ejecutar el comando
+3. Regresa al directorio root `cd ..` y ejecutar `npm run dev`
+
+4. [Adicional] Para ejecutar los testings navegar a la carpeta `front` y ejecutar el comando
     `npm run test`
 
 ## Dependencias utilizadas
